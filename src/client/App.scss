@@ -1,0 +1,91 @@
+/*Configure Theme Colors*/
+//darkGray: #222;
+.App {
+  text-align: center;
+}
+
+.App-header {
+ // background-color:darkGray;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+h1 {
+  color: green;
+  text-align: center;
+}
+ul {
+  list-style: none;
+}
+/* Layout using Flex */
+.flexContainer {
+  display: flex;
+}
+.flexItem {
+  flex: 1;
+}
+.flexStart {
+  justify-content: flex-start;
+}
+.flexEnd {
+  justify-content: flex-end;
+}
+.flexCenter {
+  justify-content: center;
+}
+.greyBackground {
+  background: lightskyblue;
+}
+nav {
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  display: block;
+  padding: 0 1em;
+  color: green;
+}
+.fullHeight {
+  height: 100vh;
+}
+.itemCenter {
+  align-items: center;
+}
+.fullHeight {
+  height: 100vh;
+}
+.bannerImage {
+  background: url(../../assets/images/bitcoin.png);
+  background-size: cover;
+}
+.whiteBackground {
+  background: white;
+}
+.blueBackground {
+  background: lightskyblue;
+}
+.main {
+  order: 2;
+  padding: 20px;
+  border-left: 1px solid #777777;
+  border-right: 1px solid #777777;
+}
+.sidebar {
+  width: 20%;
+  background: white;
+  padding: 20px;
+}
+.sidebarLeft {
+  order: 1;
+}
+.sidebarRight {
+  order: 3;
+}

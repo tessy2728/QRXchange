@@ -1,0 +1,13 @@
+{
+    "extends": ["airbnb"],
+    "env": {
+      "browser": true,
+      "node": true
+    },
+    "rules": {
+      "no-console": "off",
+      "comma-dangle": "off",
+      "react/jsx-filename-extension": "on",
+      "react/prefer-stateless-function": "off"
+    }
+  }
